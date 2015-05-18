@@ -1,0 +1,22 @@
+{
+  "name": "flickrlondon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/graememac/flickrlondon.git"
+  },
+  "author": "Graeme MacFarlane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/graememac/flickrlondon/issues"
+  },
+  "homepage": "https://github.com/graememac/flickrlondon",
+  "dependencies": {
+    "express": "^4.12.4"
+  }
+}

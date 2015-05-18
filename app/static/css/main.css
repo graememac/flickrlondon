@@ -1,0 +1,48 @@
+body {
+    font-family:arial;
+}
+
+#main_container {
+    margin-left:auto;
+    margin-right:auto;
+    width:1200px;
+}
+
+.photo_container {
+    margin:25px 50px 25px 0px;
+    width:250px;
+    height:250px;
+    float:left;
+    text-align:center;
+}
+
+.photo {
+    padding:10px;
+    border-radius:5px;
+    background-color:#CCC;
+}
+
+.photo:hover {
+    cursor:pointer;
+}
+
+.photo_selected {
+    background-color:#ef6600;
+}
+
+/* Mobile only */
+@media screen and (max-width:550px){
+
+    #main_container {
+        margin-left:2.5%;
+        margin-right:2.5%;
+        width:95%;
+    }
+    
+    .photo_container {
+        width:100%;
+        height:auto;
+        margin:0px 0px 25px 0px;
+        text-align:center;
+    }
+}
